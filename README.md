@@ -7,7 +7,7 @@ An Image-to-Video (I2V) workflow adapted from LTX-2_ICLoRA_Distilled, integrated
 ## 📝About the Files
 This contains three ComfyUI workflows. You can run them separately or use the combined workflow:
 
-### I2V + EditImage ###
+### I2V + EditImage 
 (This workflow is for anyone who wants everything in one place.)
 A combined workflow based on LTX-2_ICLoRA_Distilled pipeline and QwenImageEdit2509. It includes toggle switches to enable or disable steps, or to switch controls within the same workflow:
 
@@ -22,17 +22,18 @@ A combined workflow based on LTX-2_ICLoRA_Distilled pipeline and QwenImageEdit25
 
  ![WorkflowPreview](result/result_depth.gif)
 
-### I2V ###
+### I2V 
 A standalone Image-to-Video workflow using LTX-2_ICLoRA_Distilled. The settings are the same as the I2V part in the combined workflow, without the image editing steps.
 
  ![WorkflowPreview](result/depth.PNG)
  
-### EditImage ###
+### EditImage 
 A standalone workflow for image editing and upscaling. It uses the QwenImageEdit2509(GGUF) pipeline together with SeedVR2 upscaling.
 
 ![WorkflowPreview](result/edit.png)
 
-## Custom Nodes
+## Requirements
+### Custom Nodes
 Install the following nodes (It is best to use ComfyUI Manager):
 * [ComfyUI-LTXVideo](https://github.com/Lightricks/ComfyUI-LTXVideo)
 
