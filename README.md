@@ -17,8 +17,8 @@ Step 2. Uses the edited image as input for the LTX-2 section. In the main Subgra
  - 2 – Canny
  - 3 – Pose
 
- ![WorkflowPreview](workflows/I2V+EditImage/result/depth.PNG)
- ![WorkflowPreview](workflows/I2V+EditImage/result/result/result_depth.gif)
+ ![WorkflowPreview](result/depth.PNG)
+ ![WorkflowPreview](result/result/result_depth.gif)
 
 ### I2V ###
 A standalone Image-to-Video workflow using LTX-2_ICLoRA_Distilled. The settings are the same as the I2V part in the combined workflow, without the image editing steps.
