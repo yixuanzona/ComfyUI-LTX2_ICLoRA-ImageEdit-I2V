@@ -29,7 +29,7 @@ A standalone Image-to-Video workflow using LTX-2_ICLoRA_Distilled. The settings 
  
 ### EditImage 
 A standalone workflow for image editing and upscaling. It uses the QwenImageEdit2509(GGUF) pipeline together with SeedVR2 upscaling.
-( You can also swap in other model versions as needed.)
+(You can also swap in other model versions as needed.)
 
 ![WorkflowPreview](result/edit.png)
 
@@ -48,10 +48,10 @@ Install the following nodes (It is best to use ComfyUI Manager):
 * [ComfyUI-VideoHelperSuite](https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite)
 
 ### Models
-* [ComfyUI-LTXVideo](https://github.com/Lightricks/ComfyUI-LTXVideo)
+* [LTX-2_ICLoRA_Distilled](https://github.com/Lightricks/ComfyUI-LTXVideo)
 * [Qwen-Image-Edit-2509-GGUF](https://huggingface.co/QuantStack/Qwen-Image-Edit-2509-GGUF)
 * [Qwen-Image-Lightning](https://huggingface.co/lightx2v/Qwen-Image-Lightning/tree/main/Qwen-Image-Edit-2509)
 
 
-## Important Notes
+## Important Notes :
 If you load the workflow without ComfyUI-LTXVideo installed, some items on the Subgraph (such as SelectControl) may disappear. Once the nodes are installed, simply drag the workflow into ComfyUI again and it will display correctly.
