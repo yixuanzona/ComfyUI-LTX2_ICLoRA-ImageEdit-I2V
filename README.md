@@ -7,7 +7,7 @@ An Video-to-Video (V2V) workflow based on LTX-2_ICLoRA_Distilled pipeline, integ
 ## 📝About the Files
 This contains three ComfyUI workflows. You can run them separately or use the combined workflow:
 
-### I2V + EditImage 
+### V2V + EditImage 
 (This workflow is for anyone who wants everything in one place.)
 
 A combined workflow based on LTX-2_ICLoRA_Distilled pipeline and QwenImageEdit2509. It includes toggle switches to enable or disable steps, or to switch controls within the same workflow:
@@ -23,8 +23,8 @@ A combined workflow based on LTX-2_ICLoRA_Distilled pipeline and QwenImageEdit25
 
  ![WorkflowPreview](result/result_depth.gif)
 
-### I2V 
-A standalone Image-to-Video workflow using LTX-2_ICLoRA_Distilled. The settings are the same as the I2V part in the combined workflow, without the image editing steps.
+### V2V 
+A standalone Video-to-Video workflow using LTX-2_ICLoRA_Distilled. The settings are the same as the V2V part in the combined workflow, without the image editing steps.
 
  ![WorkflowPreview](result/depth.PNG)
  
